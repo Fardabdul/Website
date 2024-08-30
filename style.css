@@ -1,0 +1,148 @@
+
+
+:root{
+    --primary: #ED3833;
+    --secondary:#191c26;
+}
+body{
+    background-color: #191c26;
+    height: 100vh;
+}
+.main-navbar{
+    background-color: rgba(0, 0, 0, 0.856);
+}
+.navbar-brand img{
+    width: 100px;
+}
+
+.nav-link{
+    color: #fff !important;
+}
+
+.navbar-collapse{
+    flex-grow: unset !important;
+}
+
+.dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.856);
+    color: white;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+.slider-image img{
+  width: 100%;
+  border-radius: 90%;
+  overflow: hidden;
+  border: 10px solid blue;
+  transform: rotate(1deg);
+}
+.slider{
+    background-color: 1E201E;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.name{
+    
+    color: #ED3833;
+    text-align: center;
+    color: red;
+}
+
+.job{
+    text-align: center;
+    color: #fff;
+}
+.location{
+    text-align: center;
+    color: #ED3833;
+}
+.description{
+    color: rgb(255, 255, 0);
+    text-align: center;
+}
+
+/*about*/
+
+.sm-title{
+    color: red;
+}
+
+.lg-text{
+    color: #fff;
+}
+.text{
+    color: white;
+}
+.about-image{
+    width: 70%;
+    border-radius:5%;
+    overflow: hidden;
+}
+.ig-light{
+    color: #fff;
+}
+.lg-title{
+    color: #fff;
+}
+
+.a-name{
+    color: #fff;
+}
+.a-job{
+    color: #fff;
+}
+.a-job span{
+    color: red;
+}
+.text{
+    color: #fff;
+}
+.line{
+ width: 100%;
+ height: 1px;
+ background-color: #fff;
+}
+.table{
+    color: #fff;
+}
+.info{
+    color: #fff;
+}
+
+.iconSection{
+    display: flex;
+}
+.icon-text{
+    color: #fff;
+    margin-left: 18px;
+}
+.c-text{
+    color: #fff;
+}
+.c-text span{
+    color: red;
+}
+.form-label{
+    color: #fff;
+}
+
+.footer{
+    height: 30px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+
+    align-items: center;
+}
+.footer a{
+    text-decoration:none;
+    color: #fff;
+    margin-left: 43px;
+}
+.footer a span{
+    color: red;
+}
